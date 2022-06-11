@@ -1,0 +1,7 @@
+pandas==1.4.2
+psaw==0.1.0
+nltk==3.7
+vaderSentiment==3.3.2
+bs4==0.0.1
+numpy==1.22.4
+matplotlib==3.5.2
