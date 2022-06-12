@@ -17,5 +17,5 @@ def sentiment_analyzis(reddit_df):
 
 if __name__ == '__main__':
     analyzed_df = sentiment_analyzis(reddit_df)
-    analyzed_df.to_csv(r'C:\Users\suchy\Downloads\bitcoin_analyzis.csv', index=False)
-    bitcoin_data = pd.read_csv('file_name.csv')
+    analyzed_df.to_csv(r'C:\Users\suchy\Downloads\bitcoin_analyzis.csv')
+    # bitcoin_data = pd.read_csv('Bitcoin.csv')

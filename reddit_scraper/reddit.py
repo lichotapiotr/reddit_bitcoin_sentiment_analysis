@@ -2,9 +2,10 @@ from psaw import PushshiftAPI
 import pandas as pd
 import datetime as dt
 
+
 api = PushshiftAPI()
 
-start_epoch = int(dt.datetime(2022, 5, 30).timestamp())
+start_epoch = int(dt.datetime(2022, 1, 1).timestamp())
 end_epoch = int(dt.datetime(2022, 6, 1).timestamp())
 
 def api_scraper(start_epoch, end_epoch):
